@@ -1,35 +1,36 @@
-document.getElementById('search').oninput = function () {
-    var val = this.value.toLowerCase();
-    document.getElementById('box-4').innerHTML = " ";
+
+document.getElementById('box_search_form').oninput = function () {
+    var input_value = this.value.toLowerCase();
+    document.getElementById('search_dynamic_info').innerHTML = " ";
     for (let i = 0; i < data.length; i++) {
 
-        if (data[i].general.firstName.toLowerCase().indexOf(val) !== -1) {
-
-            var element = document.getElementById('box-4');
+        if (data[i].general.firstName.toLowerCase().indexOf(input_value) !== -1) {
+            
+            var element = document.getElementById('search_dynamic_info');
 
 
             var dynamic = document.createElement('div');
             var billet = document.createElement('div');
             var img = document.createElement('img');
-            var f_name = document.createElement('span');
-            var l_name = document.createElement('span');
+            var first_name = document.createElement('span');
+            var last_name = document.createElement('span');
             var title = document.createElement('span');
             var company = document.createElement('span');
 
 
 
-            f_name.classList = 'name';
-            l_name.classList = 'name';
-            title.classList = 'post';
-            company.classList = 'post';
+            first_name.classList = 'info_billet_name';
+            last_name.classList = 'info_billet_name';
+            title.classList = 'info_billet_post';
+            company.classList = 'info_billet_post';
 
 
-            billet.classList = 'box-5';
-            img.classList = 'imgs';
+            billet.classList = 'dynamic_info_billet';
+            img.classList = 'dynamic_info_avatar';
             img.src = data[i].general.avatar;
-            dynamic.classList = 'box-3';
-            f_name.innerHTML = data[i].general.firstName + ' ';
-            l_name.innerHTML = data[i].general.lastName + '<br>';
+            dynamic.classList = 'dynamic_info';
+            first_name.innerHTML = data[i].general.firstName + ' ';
+            last_name.innerHTML = data[i].general.lastName + '<br>';
             title.innerHTML = data[i].job.title + '<br>';
             company.innerHTML = data[i].job.company;
 
@@ -73,8 +74,8 @@ const liam = {
 
             dynamic.appendChild(img);
             dynamic.appendChild(billet);
-            billet.appendChild(f_name);
-            billet.appendChild(l_name);
+            billet.appendChild(first_name);
+            billet.appendChild(last_name);
             billet.appendChild(title);
             billet.appendChild(company);
 
