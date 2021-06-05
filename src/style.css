@@ -41,7 +41,7 @@ input {
       -ms-flex-direction: row;
           flex-direction: row;
   border: 3px solid #6666f1;
-  height: 6vw;
+  min-height: 6vw;
   margin: 5px 5px 5px 0px;
   border-radius: 5px;
 }
