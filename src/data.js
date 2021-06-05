@@ -1,12 +1,9 @@
-//export
-
-
 const data = [
   {
     general: {
       firstName: "Liana",
       lastName: "Crooks",
-      avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/kevinoh/128.jpg"
+      avatar: "faces/1.jpg"
     },
     job: {
       company: "Ledner, Johnson and Predovic",
@@ -29,7 +26,7 @@ const data = [
       firstName: "Deontae",
       lastName: "Dare",
       avatar:
-        "https://s3.amazonaws.com/uifaces/faces/twitter/andysolomon/128.jpg"
+       "faces/2.jpg"
     },
     job: {
       company: "D'Amore, Dicki and Borer",
@@ -50,7 +47,7 @@ const data = [
     general: {
       firstName: "Cortez",
       lastName: "Pacocha",
-      avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/holdenweb/128.jpg"
+      avatar: "faces/3.jpg"
     },
     job: {
       company: "McKenzie Group",
@@ -71,7 +68,7 @@ const data = [
     general: {
       firstName: "Geoffrey",
       lastName: "Russel",
-      avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/swaplord/128.jpg"
+      avatar: "faces/4.jpg"
     },
     job: {
       company: "Nienow and Sons",
@@ -92,7 +89,7 @@ const data = [
     general: {
       firstName: "Christian",
       lastName: "Wuckert",
-      avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/lowie/128.jpg"
+      avatar: "faces/5.jpg"
     },
     job: {
       company: "Jakubowski Inc",
@@ -113,7 +110,7 @@ const data = [
     general: {
       firstName: "Joana",
       lastName: "Breitenberg",
-      avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/themrdave/128.jpg"
+      avatar: "faces/6.jpg"
     },
     job: {
       company: "Jacobson - Fay",
@@ -134,7 +131,7 @@ const data = [
     general: {
       firstName: "Elton",
       lastName: "Pfannerstill",
-      avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/abdots/128.jpg"
+      avatar: "faces/7.jpg"
     },
     job: {
       company: "Franecki LLC",
@@ -155,7 +152,7 @@ const data = [
     general: {
       firstName: "Alvena",
       lastName: "Paucek",
-      avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/dvdwinden/128.jpg"
+      avatar: "faces/8.jpg"
     },
     job: {
       company: "Goldner - Haag",
@@ -176,8 +173,7 @@ const data = [
     general: {
       firstName: "Lew",
       lastName: "Daniel",
-      avatar:
-        "https://s3.amazonaws.com/uifaces/faces/twitter/dhoot_amit/128.jpg"
+      avatar:"faces/9.jpg"
     },
     job: {
       company: "Corwin LLC",
@@ -198,8 +194,7 @@ const data = [
     general: {
       firstName: "Darlene",
       lastName: "Davis",
-      avatar:
-        "https://s3.amazonaws.com/uifaces/faces/twitter/raphaelnikson/128.jpg"
+      avatar:"faces/10.jpg"
     },
     job: {
       company: "Franecki and Sons",
@@ -220,8 +215,7 @@ const data = [
     general: {
       firstName: "Savannah",
       lastName: "Predovic",
-      avatar:
-        "https://s3.amazonaws.com/uifaces/faces/twitter/mtolokonnikov/128.jpg"
+      avatar:"faces/11.jpg"
     },
     job: {
       company: "O'Connell - Koepp",
@@ -242,8 +236,7 @@ const data = [
     general: {
       firstName: "Nicolette",
       lastName: "Rogahn",
-      avatar:
-        "https://s3.amazonaws.com/uifaces/faces/twitter/oskarlevinson/128.jpg"
+      avatar:"faces/12.jpg"
     },
     job: {
       company: "Zemlak - Larkin",
@@ -264,8 +257,7 @@ const data = [
     general: {
       firstName: "Aidan",
       lastName: "Stracke",
-      avatar:
-        "https://s3.amazonaws.com/uifaces/faces/twitter/falconerie/128.jpg"
+      avatar:"faces/13.jpg"
     },
     job: {
       company: "Denesik, Dicki and Schmitt",
@@ -286,8 +278,7 @@ const data = [
     general: {
       firstName: "Tristin",
       lastName: "Eichmann",
-      avatar:
-        "https://s3.amazonaws.com/uifaces/faces/twitter/johnriordan/128.jpg"
+      avatar:"faces/14.jpg"
     },
     job: {
       company: "Marvin, Pfannerstill and Braun",
@@ -308,7 +299,7 @@ const data = [
     general: {
       firstName: "Malika",
       lastName: "Feeney",
-      avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/dnirmal/128.jpg"
+      avatar:"faces/15.jpg"
     },
     job: {
       company: "Pfannerstill - Christiansen",
@@ -329,8 +320,7 @@ const data = [
     general: {
       firstName: "Ross",
       lastName: "Dickens",
-      avatar:
-        "https://s3.amazonaws.com/uifaces/faces/twitter/kuldarkalvik/128.jpg"
+      avatar:"faces/16.jpg"
     },
     job: {
       company: "Champlin, Leannon and O'Connell",
@@ -351,8 +341,7 @@ const data = [
     general: {
       firstName: "Granville",
       lastName: "Larson",
-      avatar:
-        "https://s3.amazonaws.com/uifaces/faces/twitter/gregkilian/128.jpg"
+      avatar:"faces/17.jpg"
     },
     job: {
       company: "Metz - Bashirian",
@@ -373,8 +362,7 @@ const data = [
     general: {
       firstName: "Donnie",
       lastName: "Macejkovic",
-      avatar:
-        "https://s3.amazonaws.com/uifaces/faces/twitter/guiiipontes/128.jpg"
+      avatar:"faces/18.jpg"
     },
     job: {
       company: "Schmeler - Romaguera",
@@ -395,8 +383,7 @@ const data = [
     general: {
       firstName: "Estell",
       lastName: "Baumbach",
-      avatar:
-        "https://s3.amazonaws.com/uifaces/faces/twitter/janpalounek/128.jpg"
+      avatar:"faces/19.jpg"
     },
     job: {
       company: "Kuphal - Renner",
@@ -417,7 +404,7 @@ const data = [
     general: {
       firstName: "Amelie",
       lastName: "Bradtke",
-      avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/vanchesz/128.jpg"
+      avatar:"faces/20.jpg"
     },
     job: {
       company: "Swift LLC",
@@ -438,8 +425,7 @@ const data = [
     general: {
       firstName: "Elmer",
       lastName: "D'Amore",
-      avatar:
-        "https://s3.amazonaws.com/uifaces/faces/twitter/mfacchinello/128.jpg"
+      avatar:"faces/21.jpg"
     },
     job: {
       company: "Schaden Group",

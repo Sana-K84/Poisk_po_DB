@@ -1,6 +1,9 @@
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  
 }
+
 input {
   padding: 3px;
   width: 100%;
@@ -12,6 +15,8 @@ input {
 }
 
 .conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-color: white;
   padding: 0px;
@@ -25,9 +30,16 @@ input {
   padding: 5px;
 }
 .dynamic_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: stretch;
-  flex-direction: row;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   border: 3px solid #6666f1;
   height: 6vw;
   margin: 5px 5px 5px 0px;
@@ -36,42 +48,37 @@ input {
 .dynamic_info:hover {
   background-color: #e8f0fe;
 }
-/*
-.box-3:hover {
-    
-    height: 6.1vw;
-}
-*/
+
 .search_dynamic {
-  overflow: overlay;
-  max-height: 500px;
-  scrollbar-arrow-color: #fff; /* Цвет стрелок */
-  scrollbar-face-color: blue; /* Цвет полосы прокрутки */
+overflow-y: auto;
+max-height: 40vw;
+  
+
 }
-.dynamic_info_billet {
+.DynamicInfo_billet {
   width: 100%;
   overflow: hidden;
   padding-left: 2px;
 }
-.s {
-  margin: 1%;
-}
-.dynamic_info_avatar {
+
+.DynamicInfo_avatar {
   width: 5.8vw;
   /*    border: 3px solid #6666f1;*/
   margin: 2px;
   border-radius: 5px;
 }
 hr {
-  border: none; /* Убираем границу для браузера Firefox */
-  color: #6666f1; /* Цвет линии для остальных браузеров */
-  background-color: #6666f1; /* Цвет линии для браузера Firefox и Opera */
-  height: 3px; /* Толщина линии */
+  border: none;
+  color: #6666f1;
+  background-color: #6666f1;
+  height: 3px;
 }
 
-.box_info {
+.boxInfo {
   padding: 1vw;
   width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .im {
@@ -88,19 +95,19 @@ hr {
   width: 70%;
   margin: 0px 10px 10px 10px;
 }
-.box_info p {
+.boxInfo p {
   font-size: 2vw;
   margin: 0.5vw;
 }
-.box_info p span {
+.boxInfo p span {
   font-size: 2.3vw;
   margin: 0.5vw;
 }
-.box_search .info_billet_name {
+.billet_name {
   font-size: 2vw;
   font-weight: 500;
 }
-.box_search .info_billet_post {
+.billet_post {
   font-size: 1.2vw;
 }
 ::-webkit-input-placeholder {
