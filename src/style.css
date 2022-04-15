@@ -1,7 +1,7 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  
+  box-sizing: border-box;
+
 }
 
 input {
@@ -24,37 +24,42 @@ input {
   color: #6666f1;
   border-radius: 5px;
 }
+
 .box_search {
   width: 30%;
   border-right: 3px solid #6666f1;
   padding: 5px;
+
 }
+
 .dynamic_info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   border: 3px solid #6666f1;
   min-height: 6vw;
   margin: 5px 5px 5px 0px;
   border-radius: 5px;
 }
+
 .dynamic_info:hover {
   background-color: #e8f0fe;
 }
 
 .search_dynamic {
-overflow-y: auto;
-max-height: 40vw;
-  
+  overflow-y: auto;
+  max-height: 40vw;
+  min-height: 100vh;
 
 }
+
 .DynamicInfo_billet {
   width: 100%;
   overflow: hidden;
@@ -67,6 +72,7 @@ max-height: 40vw;
   margin: 2px;
   border-radius: 5px;
 }
+
 hr {
   border: none;
   color: #6666f1;
@@ -81,44 +87,57 @@ hr {
   display: -ms-flexbox;
   display: flex;
 }
+
 .im {
-    width: 30%;
-    border: 3px solid #6666f1;
-    border-radius: 5px;
-    height: 20vw;
+  width: 30%;
+  border: 3px solid #6666f1;
+  border-radius: 5px;
+  height: 20vw;
 }
+
 .imgc {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
+
 .con {
   width: 70%;
   margin: 0px 10px 10px 10px;
 }
+
 .boxInfo p {
   font-size: 2vw;
   margin: 0.5vw;
 }
+
 .boxInfo p span {
   font-size: 2.3vw;
   margin: 0.5vw;
 }
+
 .billet_name {
   font-size: 2vw;
   font-weight: 500;
 }
+
 .billet_post {
   font-size: 1.2vw;
 }
+
 ::-webkit-input-placeholder {
   color: #6666f157;
 }
+
 ::-moz-placeholder {
   color: #6666f157;
-} /* Firefox 19+ */
+}
+
+/* Firefox 19+ */
 :-moz-placeholder {
   color: #6666f157;
-} /* Firefox 18- */
+}
+
+/* Firefox 18- */
 :-ms-input-placeholder {
   color: #6666f157;
 }
